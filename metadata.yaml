@@ -1,0 +1,92 @@
+description: Ultralytics best model trained on /content/drive/MyDrive/laundry_symbols.yolov8/data.yaml
+author: Ultralytics
+date: '2026-06-16T19:08:16.241589'
+version: 8.4.69
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: ER_bleach
+  1: ER_chlorine_bleach
+  2: ER_dry_clean
+  3: ER_dry_clean_chemical
+  4: ER_dry_clean_chemical_mild
+  5: ER_dry_clean_hydrocarbon
+  6: ER_dry_clean_hydrocarbon_mild
+  7: ER_dry_in_shade
+  8: ER_flat_dry
+  9: ER_flat_dry_in_shade
+  10: ER_hand_wash
+  11: ER_iron
+  12: ER_iron_high_temp
+  13: ER_iron_low_temp
+  14: ER_iron_medium_temp
+  15: ER_natural_dry
+  16: ER_no_bleach
+  17: ER_no_dry_clean
+  18: ER_no_iron
+  19: ER_no_tumble_dry
+  20: ER_no_wash
+  21: ER_no_wet_clean
+  22: ER_non_chlorine_bleach
+  23: ER_tumble_dry
+  24: ER_tumble_dry_low_heat
+  25: ER_tumble_dry_normal_heat
+  26: ER_wash
+  27: ER_wash_30
+  28: ER_wash_30_mild
+  29: ER_wash_40
+  30: ER_wash_40_mild
+  31: ER_wash_50
+  32: ER_wash_50_mild
+  33: ER_wash_60
+  34: ER_wash_70
+  35: ER_wash_95
+  36: ER_wash_95_mild
+  37: KR_chlorine_bleach
+  38: KR_chlorine_or_oxygen_bleach
+  39: KR_dry_clean
+  40: KR_dry_clean_petroleum
+  41: KR_flat_dry
+  42: KR_flat_dry_in_shade
+  43: KR_gentle_wring
+  44: KR_hand_wash_30_neutral
+  45: KR_hang_dry
+  46: KR_hang_dry_in_shade
+  47: KR_iron_high_temp
+  48: KR_iron_high_temp_with_cloth
+  49: KR_iron_low_temp
+  50: KR_iron_low_temp_with_cloth
+  51: KR_iron_medium_temp
+  52: KR_iron_medium_temp_with_cloth
+  53: KR_no_bleach
+  54: KR_no_chlorine_bleach
+  55: KR_no_dry_clean
+  56: KR_no_iron
+  57: KR_no_oxygen_bleach
+  58: KR_no_tumble_dry
+  59: KR_no_wash
+  60: KR_no_wring
+  61: KR_oxygen_bleach
+  62: KR_professional_dry_clean_only
+  63: KR_tumble_dry
+  64: KR_wash_40
+  65: KR_wash_60
+  66: KR_wash_95
+  67: KR_wash_warm_30_neutral
+  68: KR_wash_warm_40
+  69: wash-care-symbols
+args:
+  data: null
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: true
+channels: 3
+end2end: false
