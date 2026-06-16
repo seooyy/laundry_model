@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 70
+names: ['ER_bleach', 'ER_chlorine_bleach', 'ER_dry_clean', 'ER_dry_clean_chemical', 'ER_dry_clean_chemical_mild', 'ER_dry_clean_hydrocarbon', 'ER_dry_clean_hydrocarbon_mild', 'ER_dry_in_shade', 'ER_flat_dry', 'ER_flat_dry_in_shade', 'ER_hand_wash', 'ER_iron', 'ER_iron_high_temp', 'ER_iron_low_temp', 'ER_iron_medium_temp', 'ER_natural_dry', 'ER_no_bleach', 'ER_no_dry_clean', 'ER_no_iron', 'ER_no_tumble_dry', 'ER_no_wash', 'ER_no_wet_clean', 'ER_non_chlorine_bleach', 'ER_tumble_dry', 'ER_tumble_dry_low_heat', 'ER_tumble_dry_normal_heat', 'ER_wash', 'ER_wash_30', 'ER_wash_30_mild', 'ER_wash_40', 'ER_wash_40_mild', 'ER_wash_50', 'ER_wash_50_mild', 'ER_wash_60', 'ER_wash_70', 'ER_wash_95', 'ER_wash_95_mild', 'KR_chlorine_bleach', 'KR_chlorine_or_oxygen_bleach', 'KR_dry_clean', 'KR_dry_clean_petroleum', 'KR_flat_dry', 'KR_flat_dry_in_shade', 'KR_gentle_wring', 'KR_hand_wash_30_neutral', 'KR_hang_dry', 'KR_hang_dry_in_shade', 'KR_iron_high_temp', 'KR_iron_high_temp_with_cloth', 'KR_iron_low_temp', 'KR_iron_low_temp_with_cloth', 'KR_iron_medium_temp', 'KR_iron_medium_temp_with_cloth', 'KR_no_bleach', 'KR_no_chlorine_bleach', 'KR_no_dry_clean', 'KR_no_iron', 'KR_no_oxygen_bleach', 'KR_no_tumble_dry', 'KR_no_wash', 'KR_no_wring', 'KR_oxygen_bleach', 'KR_professional_dry_clean_only', 'KR_tumble_dry', 'KR_wash_40', 'KR_wash_60', 'KR_wash_95', 'KR_wash_warm_30_neutral', 'KR_wash_warm_40', 'wash-care-symbols']
+
+roboflow:
+  workspace: -du2kw
+  project: laundry_symbols-nq1un
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-du2kw/laundry_symbols-nq1un/dataset/dataset
